@@ -1,0 +1,22 @@
+/**
+ * 20200117 初版
+ * 
+ */
+package com.shohei.tm.domain.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+/**
+ * チャージコードエンティティを表すクラスです
+ * @author shoheitokumaru
+ *
+ */
+@Entity
+@Table(name="charge_code")
+public class ChargeCode implements Serializable {
+	
+
+}

@@ -1,0 +1,25 @@
+/**
+ * 20200118 初版
+ * 
+ */
+package com.shohei.tm.app.task;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.shohei.tm.domain.repository.task.TaskHistoryRepository;
+
+/**
+ * タスクに関するリクエストを受けるコントローラークラス
+ * @author shoheitokumaru
+ *
+ */
+@Controller
+@RequestMapping("/task")
+public class TaskController {
+	@Autowired
+	TaskHistoryRepository taskHistoryRepository;
+	
+	
+
+}

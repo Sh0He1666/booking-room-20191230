@@ -1,0 +1,17 @@
+package com.shohei.tm;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+
+@SpringBootApplication
+@EnableJpaRepositories("com.shohei.tm.domain.repository")
+@EntityScan("com.shohei.tm.domain.model")
+public class TmApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TmApplication.class, args);
+	}
+
+}

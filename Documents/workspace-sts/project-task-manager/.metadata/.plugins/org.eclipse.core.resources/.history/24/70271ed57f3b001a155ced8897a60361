@@ -1,0 +1,5 @@
+package com.shohei.tm.domain.model.converter;
+
+public class LocalDateTimeConverter {
+
+}

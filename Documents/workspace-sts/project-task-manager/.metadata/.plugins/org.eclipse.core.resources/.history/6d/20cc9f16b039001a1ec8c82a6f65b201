@@ -1,0 +1,39 @@
+/**
+ * 20200118 初版
+ * 
+ */
+package com.shohei.tm.domain.service.task;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.shohei.tm.domain.model.TaskHistory;
+import com.shohei.tm.domain.repository.task.TastHistoryRepository;
+
+/**
+ * ビジネスロジック実装クラスです
+ * @author shoheitokumaru
+ *
+ */
+@Service
+@Transactional
+public class TaskService {
+	@Autowired
+	TastHistoryRepository taskHistoryRepository;
+	
+	//タスク一覧を表示するメソッド
+	List<TaskHistory> findBy
+	
+	//プロジェクト情報を追加するメソッド
+	
+	//チャージコードを追加するメソッド
+	
+	//タスクを削除するメソッド
+	
+	
+	
+
+}

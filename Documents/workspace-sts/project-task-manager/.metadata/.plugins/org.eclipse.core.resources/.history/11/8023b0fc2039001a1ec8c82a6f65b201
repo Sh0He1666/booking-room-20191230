@@ -1,0 +1,16 @@
+/**
+ * 20200117 初版
+ * 
+ */
+package com.shohei.tm.domain.model;
+
+import java.io.Serializable;
+
+/**
+ * タスク履歴エンティティを表すクラスです。
+ * @author shoheitokumaru
+ *
+ */
+public class TaskHistory implements Serializable {
+
+}

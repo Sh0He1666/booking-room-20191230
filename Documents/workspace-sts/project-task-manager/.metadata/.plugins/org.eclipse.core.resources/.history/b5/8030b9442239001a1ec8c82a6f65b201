@@ -1,0 +1,29 @@
+/**
+ * 20200117 初版
+ * 
+ */
+package com.shohei.tm.domain.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+/**
+ * タスク履歴エンティティを表すクラスです。
+ * @author shoheitokumaru
+ *
+ */
+@Entity
+@Table(name="task_history")
+public class TaskHistory implements Serializable {
+	//カラム情報を定義
+	@ManyToOne
+	@JoinColumn(name="id")
+	private User user;
+	
+	//
+	
+}

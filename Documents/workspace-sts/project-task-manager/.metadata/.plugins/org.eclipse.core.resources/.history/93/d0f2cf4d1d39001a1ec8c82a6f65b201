@@ -1,0 +1,14 @@
+/*
+ * Enum　列挙型
+ * 定数を定義します
+ * 
+ */
+
+public enum RoleName {
+	ADMIN, USER
+}
+package com.shohei.tm.domain.model;
+
+public class TaskAddInfo {
+
+}

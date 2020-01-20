@@ -1,0 +1,10 @@
+/**
+ * 20200118 初版
+ * 
+ */
+package com.shohei.tm.domain.repository.chargeCode;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ChargeCodeRepository extends JpaRepository {
+}

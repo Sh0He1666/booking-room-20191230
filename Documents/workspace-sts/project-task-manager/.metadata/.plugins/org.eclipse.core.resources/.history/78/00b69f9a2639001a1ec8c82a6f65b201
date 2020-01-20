@@ -1,0 +1,35 @@
+/**
+ * 20200116 初版
+ * 20200117 このクラスいらない？？
+ */
+package com.shohei.tm.domain.model;
+
+import java.io.Serializable;
+import java.sql.Timestamp;
+
+import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+/**
+ * タスクリストエンティティを表すクラスです
+ * 一旦保留
+ * @author shoheitokumaru
+ *
+ */
+@Entity
+public class TaskList implements Serializable{
+	
+	//カラム情報を定義
+	@ManyToOne
+	@JoinColumn(name="id")
+	private User user;
+	
+	@ManyToOne
+	@JoinColumn(name="id")
+	private User user;
+	
+	
+	
+	
+}

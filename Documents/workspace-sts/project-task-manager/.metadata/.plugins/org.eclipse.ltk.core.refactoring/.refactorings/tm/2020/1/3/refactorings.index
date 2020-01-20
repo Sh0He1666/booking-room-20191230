@@ -1,0 +1,22 @@
+1578881884883	Move file
+1578881900586	Rename resource 'schema.sql'
+1578881928322	Rename resource 'firstER.sql'
+1578881984175	Rename resource 'data.sql'
+1578881994649	Copy file
+1578898912191	Delete element
+1578898963975	Delete element
+1578898996503	Delete element
+1578901941209	Rename package 'com.shohei.tm.service.project'
+1578902539354	Delete element
+1578998992594	Rename resource 'task-edit.info'
+1579188531119	Delete element
+1579188722412	Delete element
+1579188873307	Rename type 'TaskEdit'
+1579188881783	Rename type 'TaskDeleteInfo'
+1579188966514	Delete element
+1579264855403	Delete element
+1579264869694	Rename type 'TastListRepository'
+1579314588293	Delete elements
+1579315292587	Rename type 'TaskAddInfoRepository'
+1579315499206	Delete elements
+1579327879007	Rename type 'TastHistoryRepository'

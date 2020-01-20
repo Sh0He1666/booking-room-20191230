@@ -1,0 +1,13 @@
+/**
+ * 20200117 初版
+ * 
+ */
+package com.shohei.tm.domain.model;
+/**
+ * タスク履歴エンティティを表すクラスです。
+ * @author shoheitokumaru
+ *
+ */
+public class TaskHistory {
+
+}

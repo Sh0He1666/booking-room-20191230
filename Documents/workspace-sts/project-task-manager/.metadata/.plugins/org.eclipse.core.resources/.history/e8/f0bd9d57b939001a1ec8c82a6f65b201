@@ -1,0 +1,25 @@
+/**
+ * 20200117 初版
+ * 
+ */
+package com.shohei.tm.domain.repository.task;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.shohei.tm.domain.model.TaskHistory;
+import com.shohei.tm.domain.model.User;
+
+/**
+ * タスク履歴リポジトリを表すインテーフェースです
+ * @author shoheitokumaru
+ *
+ */
+public interface TastHistoryRepository extends JpaRepository<TaskHistory, User> {
+	/**
+	 * 実装されるメソッド
+	 * 
+	 */
+	List<TaskHistory> findByUser_id(User user);
+}

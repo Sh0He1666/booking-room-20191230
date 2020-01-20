@@ -1,0 +1,10 @@
+/**
+ * 20200117 初版
+ * 
+ */
+
+package com.shohei.tm.domain.model;
+
+public class TaskAddInfo {
+
+}

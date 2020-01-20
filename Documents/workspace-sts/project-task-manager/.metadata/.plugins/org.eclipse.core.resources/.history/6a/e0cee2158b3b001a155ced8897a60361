@@ -1,0 +1,24 @@
+/**
+ * 20200120 初版
+ */
+package com.shohei.tm.domain.model.converter;
+
+import java.sql.Types;
+
+import javax.persistence.AttributeConverter;
+import javax.persistence.Converter;
+
+/**
+ * DB・エンティティ間の時刻型を変換するためのコンバータクラスです
+ * @author shoheitokumaru
+ *
+ */
+@Converter(autoApply=true)
+public class IntegerConverter implements AttributeConverter<Integer, Types> { //<Entity, DB>
+	
+	//DB -> Entity
+	@Override
+	public Integer convertToEntityAttribute(Types value) {
+		return value == null ? null : value.INTEGER;
+	}
+}

@@ -1,0 +1,34 @@
+/**
+ * 20200118 初版
+ * 
+ */
+package com.shohei.tm.app.task;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.shohei.tm.domain.service.task.TaskService;
+
+/**
+ * タスクに関するリクエストを受けるコントローラークラス
+ * @author shoheitokumaru
+ *
+ */
+@Controller
+@RequestMapping("/task")
+public class TaskController {
+	@Autowired
+	TaskService taskService;
+	
+	/**
+	 * リスト一覧出力
+	 * 処理内容：
+	 * GETリクエストを受けたら
+	 */
+	
+	
+	
+	
+
+}

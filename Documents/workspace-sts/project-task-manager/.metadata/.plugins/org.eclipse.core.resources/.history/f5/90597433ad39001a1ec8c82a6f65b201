@@ -1,0 +1,15 @@
+/**
+ * 20200118 初版
+ * 
+ */
+package com.shohei.tm.domain.service.task;
+
+/**
+ * ビジネスロジック実装クラスです
+ * @author shoheitokumaru
+ *
+ */
+public class TaskService {
+	
+
+}

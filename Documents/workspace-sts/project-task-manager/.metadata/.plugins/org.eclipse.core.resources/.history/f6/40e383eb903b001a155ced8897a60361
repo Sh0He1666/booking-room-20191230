@@ -1,0 +1,26 @@
+/**
+ * 20200113 初版
+ * 
+ */
+
+package com.shohei.tm.domain.repository.project;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+import com.shohei.tm.domain.model.Project;
+
+/**
+ * プロジェクトエンティティ用のリポジトリです。
+ * @author shoheitokumaru
+ *
+ */
+public interface ProjectRepository extends JpaRepository<Project, Integer> {
+	//クエリをコンストラクタでマップしてみる
+	String QUERY_GET_PROJECTID_LIST="select new Project.class.getName()(p.id) from Project p "
+			+ "group by p.id order by p.id, p.id asc";
+	@Query(value = QUERY_GET_PROJECTID_LIST, nativeQuery=true)
+	List<Project> findIdGroupById();
+}

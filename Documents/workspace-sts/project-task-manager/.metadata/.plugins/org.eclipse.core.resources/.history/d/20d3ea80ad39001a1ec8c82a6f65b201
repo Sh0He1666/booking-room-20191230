@@ -1,0 +1,20 @@
+/**
+ * 20200118 初版
+ * 
+ */
+package com.shohei.tm.domain.service.task;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+/**
+ * ビジネスロジック実装クラスです
+ * @author shoheitokumaru
+ *
+ */
+@Service
+@Transactional
+public class TaskService {
+	
+
+}

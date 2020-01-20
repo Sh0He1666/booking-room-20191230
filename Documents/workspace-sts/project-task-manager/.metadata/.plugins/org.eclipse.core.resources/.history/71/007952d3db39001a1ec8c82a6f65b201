@@ -1,0 +1,13 @@
+/**
+ * 20200118 初版
+ * 
+ */
+package com.shohei.tm.app.task;
+
+import org.springframework.stereotype.Controller;
+
+
+@Controller
+public class TaskController {
+
+}

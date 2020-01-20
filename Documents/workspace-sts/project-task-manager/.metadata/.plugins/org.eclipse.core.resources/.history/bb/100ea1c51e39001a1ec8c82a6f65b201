@@ -1,0 +1,44 @@
+/**
+ * 20200116 初版
+ * 
+ */
+package com.shohei.tm.domain.model;
+
+import java.io.Serializable;
+import java.sql.Timestamp;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+/**
+ * ユーザーエンティティを表すクラスです
+ * @author shoheitokumaru
+ *
+ */
+@Entity
+@Table(name="account_user")
+public class User implements Serializable{
+	//カラム情報を定義
+	private Integer id; //UserId
+	private String name; //User Name varchar(20)
+	private String passwd; //Pass word varchar(20)
+	private Timestamp lastLoginDate=null; //Not Necessary
+	
+	//Getter Setter 
+	public void setId(Integer id) {
+		this.id = id;
+		}
+	public Integer getId() {
+		return this.id;
+	}	
+	
+	public void setName(Integer name) {
+		this.name = name;
+		}
+	public Integer getName() {
+		return this.name;
+	}	
+	
+	
+	
+}

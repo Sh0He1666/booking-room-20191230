@@ -1,0 +1,18 @@
+/**
+ * タスクリストエンティティを表すクラスです
+ * @author shoheitokumaru
+ *
+ */
+package com.shohei.tm.domain.repository.user;
+
+import javax.persistence.Entity;
+
+/**
+ * ユーザーリポジトリを表すインターフェースです
+ * @author shoheitokumaru
+ *
+ */
+@Entity
+public class UserRepository {
+
+}

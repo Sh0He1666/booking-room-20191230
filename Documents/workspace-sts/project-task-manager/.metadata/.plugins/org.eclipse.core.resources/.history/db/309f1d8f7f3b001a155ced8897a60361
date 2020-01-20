@@ -1,0 +1,16 @@
+/**
+ * 20200120 初版
+ */
+package com.shohei.tm.domain.model.converter;
+
+import javax.persistence.Converter;
+
+/**
+ * DB・エンティティ間の時刻型を変換するためのコンバータクラスです
+ * @author shoheitokumaru
+ *
+ */
+@Converter(autoApply=true)
+public class LocalDateConverter {
+
+}

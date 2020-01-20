@@ -1,0 +1,39 @@
+/* body */
+
+body,p,form,input{margin: 0}
+#form{
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #555;
+    }
+
+.header{
+  height: 60px;
+  width: auto;
+  background-color:#000;
+}
+
+.header-logo{
+  float: left;
+  padding: 10px 20px 10px 10px;
+}
+
+.header-logo img{
+  width: 100px;
+  height: 80px;
+}
+
+.header-list{
+  display: none;
+}
+
+.header-list{
+  float:left;
+}
+
+li{
+  list-style:none;
+  float: left;
+  padding: 40px 30px;
+}

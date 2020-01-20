@@ -1,0 +1,8 @@
+/**
+ * 20200120 初版
+ */
+package com.shohei.tm.domain.model.converter;
+
+public class LocalDateTimeConverter {
+
+}

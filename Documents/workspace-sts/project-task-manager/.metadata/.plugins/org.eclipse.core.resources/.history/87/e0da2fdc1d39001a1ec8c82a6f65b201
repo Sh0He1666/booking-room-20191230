@@ -1,0 +1,16 @@
+/**
+ * 20200116 初版
+ * 
+ */
+package com.shohei.tm.domain.model;
+
+import java.io.Serializable;
+
+/**
+ * ユーザーエンティティを表すクラスです
+ * @author shoheitokumaru
+ *
+ */
+public class User implements Serializable{
+
+}

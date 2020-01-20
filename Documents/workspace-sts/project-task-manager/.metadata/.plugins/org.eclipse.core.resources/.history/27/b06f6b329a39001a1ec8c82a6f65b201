@@ -1,0 +1,30 @@
+/**
+ * 20200117 初版
+ * 
+ */
+
+package com.shohei.tm.domain.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+
+/**
+ * タスク追加情報エンティティを表すクラスです
+ * @author shoheitokumaru
+ *
+ */
+@Entity
+public class TaskAddInfo implements Serializable {
+	
+	//カラム情報を定義
+	private TaskHistory taskHistory;
+	
+	//Setter Getter
+	public void setTaskHistory(TaskHistory taskHistory) {
+		this.taskHistory = taskHistory;
+	}
+	public TaskHistory getTaskHistory() {
+		return this.taskHistory;
+	}
+}

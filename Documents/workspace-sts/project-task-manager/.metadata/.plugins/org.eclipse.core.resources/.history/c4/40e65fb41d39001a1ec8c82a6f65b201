@@ -1,0 +1,5 @@
+package com.shohei.tm.domain.model;
+
+public class User {
+
+}
